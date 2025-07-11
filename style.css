@@ -11,6 +11,19 @@
   font-variation-settings: "wdth" 100;
 }
 
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: "wdth" 100;
+  font-style: normal;
+}
+
+.raleway-font {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: "wdth" 100;
+  font-style: normal;
+}
 
 /* Shared Style */
 
@@ -30,7 +43,9 @@
     color: white;
     border: none;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 15px;
+    font-family: raleway;
+    font-weight: bold;
 }
 
 /* header */
@@ -40,7 +55,7 @@
     background-size: cover;
     background-position: center;
     margin: 0;
-    height: 698px;
+    height: 680px;
 }
 
 /* nav */
@@ -53,7 +68,10 @@ nav {
 }
 
 .logo {
-    font-size: 34px;
+    font-size: 30px;
+    font-family: Inter;
+    text-transform: uppercase;
+    font-weight: 900;
 }
 
 .banner {
@@ -61,12 +79,45 @@ nav {
     margin: 152px 265px 152px 265px;
     justify-content: center;
 }
+
 .banner-content {
     text-align: center;
 }
+
 .banner-title {
     font-size: 65px;
     font-weight: bold;
-    margin-bottom: 37px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 30px;
+    font-family: raleway;
+}
+
+/* live preview */
+.live-preview {
+    display: flex;
+    margin: 100px 160px 0px 140px;
+    justify-content: space-between;
+}
+
+.live-preview img {
+    width: 400px;
+    height: 325px;
+    border-radius: 40px;
+}
+
+.section-content{
+    margin: 60px 0;
+}
+
+.section-title {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Raleway;
+}
+
+.section-description {
+    font-size: 20px;
+    font-family: raleway;
+    padding: 23px 0;
+    font-weight: 200;
+    opacity: 50%;
 }
