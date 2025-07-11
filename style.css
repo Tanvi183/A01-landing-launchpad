@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    background-color: aliceblue;
+}
+
 /* Font Family  */
 .open-sans-font {
   font-family: "Open Sans", sans-serif;
@@ -46,6 +50,10 @@
     font-size: 15px;
     font-family: raleway;
     font-weight: bold;
+}
+
+section {
+    margin: 100px 160px 0px 140px;
 }
 
 /* header */
@@ -94,7 +102,6 @@ nav {
 /* live preview */
 .live-preview {
     display: flex;
-    margin: 100px 160px 0px 140px;
     justify-content: space-between;
 }
 
@@ -120,4 +127,92 @@ nav {
     padding: 23px 0;
     font-weight: 200;
     opacity: 50%;
+}
+
+/* user statistics section */
+.user-statistics {
+    background-color: #4d47ff20;
+    padding: 50px 80px;
+    border-radius: 24px;
+}
+.user-statistics-content {
+    margin: 50px 140px 50px 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-sec-title {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Raleway;
+    text-align: center;
+}
+
+.sta-tissection-content {
+    text-align: center;
+    font-family: Inter;
+}
+
+.sta-tissection-content h1{
+    font-weight: bold;
+    font-size: 70px;
+}
+
+.sta-tissection-content p{
+    font-weight: 400;
+    font-size: 16px;
+    opacity: 50%;
+}
+
+/* contact section */
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+}
+.contact-section h1{
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 95px;
+    margin: 180px 0 180px 0px;;
+}
+form {
+    margin: 70px 0 70px 0;
+}
+
+form input[type="text"], form input[type="email"]{
+    height: 55px;
+    border: 1px solid #f2e8d6;
+    border-radius: 8px;
+    display: block;
+    width: 93%;
+    padding-left: 25px;
+    font-size: 15px;
+    font-family: 'Inter';
+    margin: 10px 0 10px 0;
+}
+
+form textarea{
+    height: 115px;
+    border: 1px solid #f2e8d6;
+    border-radius: 8px;
+    display: block;
+    width: 93%;
+    padding-left: 29px;
+    font-size: 15px;
+    font-family: 'Inter';
+    margin: 10px 0 22px 0;
+    padding-top: 20px;
+}
+
+form button {
+    width: 100%;
+    font-size: 15;
+    font-family: Raleway;
+}
+
+form label {
+    font-size: 18px;
+    font-family: 'Inter';
+    font-weight: 400;
+    margin-top: 20px;
 }
