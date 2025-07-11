@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Font Family  */
+.open-sans-font {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+
+/* Shared Style */
+
+.text-primary {
+    color: #252432;
+}
+
+.primary-color {
+    color: #4E47FF;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+
+.btn-primary {
+    padding: 12px 36px;
+    background-color: #4E47FF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+/* header */
+.header {
+    background-image: url(./Assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    height: 698px;
+}
+
+/* nav */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 150px;
+    padding-top: 50px
+}
+
+.logo {
+    font-size: 34px;
+}
+
+.banner {
+    display: flex;
+    margin: 152px 265px 152px 265px;
+    justify-content: center;
+}
+.banner-content {
+    text-align: center;
+}
+.banner-title {
+    font-size: 65px;
+    font-weight: bold;
+    margin-bottom: 37px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
